@@ -155,7 +155,7 @@ Classification report (ANN):
 |macro avg          |  0.75   | 0.75   |    0.75  |   231   |
 |weighted avg       |  0.75   | 0.75   |    0.75  |   231   |
 
-![Confusion Matrix]()
+![Confusion Matrix](https://raw.githubusercontent.com/tanoojoy/diabetic-retinopathy/refs/heads/main/assets/confusion.png)
 
 ### Saved Models:
 |File||
