@@ -192,3 +192,8 @@ with torch.no_grad():
     pred = torch.argmax(output, dim=1)
     print(pred)
 ```
+
+## Inference via API:
+An API was built with FastAPI and the saved models that accepts an image via a POST request, and outputs the predicted severity of the diabetic retinopathy:
+
+The API is found in this repo: `https://github.com/tanoojoy/training`
