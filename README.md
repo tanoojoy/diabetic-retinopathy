@@ -131,11 +131,35 @@ Saved as: `ann_model.pt`
 - Weighted F1 Score
 - Weighted Precision
 - Full Classification Report
-- Confusion Matrix (heatmap)
+- Confusion Matrix
 
-Saved Models
-|File|Description|
-|:--:| :--:
+Random Forest:
+- Accuracy: 82.25 %
+- Weighted F1 Score: 82.34 %
+- Weighted Precision: 83.59 %
+
+ANN
+- Accuracy: 74.89 %
+- Weighted F1 Score: 74.82 %
+- Weighted Precision: 75.18 %
+
+Classification report (ANN):
+|                   |precision| recall | f1-score |support|
+|       :--:        |   :--:  |  :--:  |    :--:  |   :--:  |
+|No_DR              |  0.92   |  0.96  |    0.94  |    46   |
+|Mild               |  0.82   |  0.67  |    0.74  |    46   |
+|Moderate           |  0.63   |  0.70  |    0.66  |    46   |
+|Severe             |  0.73   |  0.79  |    0.76  |    47   |
+|Proliferative_DR   |  0.67   |  0.63  |    0.65  |    46   |
+|accuracy           |         |        |    0.75  |   231   |
+|macro avg          |  0.75   | 0.75   |    0.75  |   231   |
+|weighted avg       |  0.75   | 0.75   |    0.75  |   231   |
+
+![Confusion Matrix]()
+
+### Saved Models:
+|File||
+|:--:| :--: |
 |pca.pkl	|Trained PCA transformer|
 |model.pkl	|Random Forest model|
 |ann_model.pt|	Trained ANN weights|
